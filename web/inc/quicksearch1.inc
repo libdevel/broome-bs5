@@ -5,16 +5,16 @@
 
 
 <ul class="nav flex-column nav-tabs flex-sm-row" role="tablist">
-	<li class="nav-item"><a class="nav-link active" href="#tab-1" data-bs-toggle="tab">Everything</a></li>
-	<li class="nav-item"><a class="nav-link" href="#tab-2" data-bs-toggle="tab">Articles</a></li>
-	<li class="nav-item"><a class="nav-link" href="#tab-3" data-bs-toggle="tab">Books & Media</a></li>
-	<li class="nav-item"><a class="nav-link" href="#tab-4" data-bs-toggle="tab">Reserves</a></li>
-	<li class="nav-item"><a class="nav-link" href="#tab-5" data-bs-toggle="tab">Other Libraries</a></li>
+	<li class="nav-item"><a class="nav-link active" href="#tab-ev" data-bs-toggle="tab"  aria-controls="tab-ev" id="everything-tab">Everything</a></li>
+	<li class="nav-item"><a class="nav-link" href="#tab-articles" data-bs-toggle="tab" aria-controls="tab-articles" id="articles-tab">Articles</a></li>
+	<li class="nav-item"><a class="nav-link" href="#tab-books" data-bs-toggle="tab" aria-controls="tab-books" id="books-tab">Books & Media</a></li>
+	<li class="nav-item"><a class="nav-link" href="#tab-reserve" data-bs-toggle="tab" aria-controls="tab-reserves" id="reserves-tab">Reserves</a></li>
+	<li class="nav-item"><a class="nav-link" href="#tab-ILL" data-bs-toggle="tab" aria-controls="tab-ILL" id="ILL-tab">Other Libraries</a></li>
 </ul>	
 
 <div class="tab-content border border-top-0">
 
-	<div id="tab-1" class="tab-pane fade active show">
+	<div id="tab-ev" class="tab-pane fade active show" aria-labelledby="everything-tab">
 		<p>Search for almost everything:</p>		
 	<form name="searchFormEv" class="input-group input-group-lg" role="search" id="all-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="searchPrimoEv();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
@@ -36,7 +36,7 @@
 	</div> <!-- tab-1 --> 
 
 
-<div id="tab-2" class="tab-pane fade show">	
+<div id="tab-articles" class="tab-pane fade show" aria-labelledby="articles-tab">	
 		<p>Search for articles:</p>	
 	<form name="searchFormArt" class="input-group input-group-lg" role="search" id="article-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryArt();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
@@ -57,7 +57,7 @@
 							
 	</div><!-- tab-2-->
 	
-	<div id="tab-3" class="tab-pane fade show">
+	<div id="tab-books" class="tab-pane fade show" aria-labelledby="books-tab">
     <p>Search for books and media:</p>
 	<form name="searchFormCat" class="input-group input-group-lg" role="search" id="book-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryCat();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
@@ -79,7 +79,7 @@
 	
 	</div><!-- tab-3-->
 		
-	<div id="tab-4" class="tab-pane fade show">
+	<div id="tab-reserve" class="tab-pane fade show" aria-labelledby="reserves-tab">
     <p>Search for books on reserve:</p>
 	<form name="searchFormCR" class="input-group input-group-lg" role="search" id="reserves-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryCR();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
@@ -111,7 +111,7 @@
 	</div><!--tab-4 -->
 	
 	
-	<div id="tab-5" class="tab-pane fade show">
+	<div id="tab-ILL" class="tab-pane fade show" aria-labelledby="ILL-tab">
 		<p>Search for books in other libraries:</p>
 		<form name="searchFormILL" class="input-group input-group-lg" role="search" id="other-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryILL();" enctype="application/x-www-form-urlencoded; charset=utf-8">
 

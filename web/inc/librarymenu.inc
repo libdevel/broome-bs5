@@ -18,41 +18,40 @@
             </div><!-- /offcanvas-header -->
    <div class="offcanvas-body justify-content-end">
 					<ul class="nav navbar-nav justify-content-end">
-						<li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/library">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">About Us<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/about-library">About the Library</a></li>
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/accessibility">Accessibility</a></li>
+                                  <li><a class="dropdown-item" href="about-library.php">About the Library</a></li>
+                                  <li><a class="dropdown-item" href="accessibility.php">Accessibility</a></li>
                                   <li><a class="dropdown-item" href="https://sunybroome.info/library/comments">Comments</a></li>
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/contact-us">Contact Us</a></li>
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/equipment-and-facilities">Equipment and Facilities</a></li>
                                   <li><a class="dropdown-item" href="hours.php">Hours</a></li>
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/librarians">Librarians</a></li>
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/directions">Location and Directions</a></li>
+                                  <li><a class="dropdown-item" href="librarians.php">Librarians</a></li>
+                                  <li><a class="dropdown-item" href="directions.php">Location and Directions</a></li>
                                   <li><a class="dropdown-item" href="https://sunybroome.info/library/new-books">New Books</a></li>
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/policies">Policies</a></li>
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/staff-list">Staff</a></li>
+                                  <li><a class="dropdown-item" href="policies.php">Policies</a></li>
+                                  <li><a class="dropdown-item" href="https://sunybroome.edu/dept/library/">Staff</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">Find & Borrow<span class="caret"></span></a>   
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/databases" title="">Articles by Subject</a></li>
-								<li><a class="dropdown-item" href="books-and-media.php" title="">Books and Media</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/databases-by-title" title="">Database A-Z</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/interlibrary-loan" title="">Interlibrary Loan</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/journals-and-magazines" title="">Journal A-Z </a></li>
+								<li><a class="dropdown-item" href="books-and-media.php">Books and Media</a></li>
+                                <li><a class="dropdown-item" href="connecting.php">Connecting to e-resources</a></li>
+								<li><a class="dropdown-item" href="databases.php">Databases by Subject</a></li>
+								<li><a class="dropdown-item" href="https://sunybroome.libguides.com/az/databases">Databases by Title</a></li>
+								<li><a class="dropdown-item" href="https://sunybroome.info/library/interlibrary-loan">Interlibrary Loan</a></li>
+								<li><a class="dropdown-item" href="https://sunybroome.info/library/journals-and-magazines">Journals and magazines</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="https://sunybroome.info/library/research-tools" title="">Library Guides<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">APA Style Guide</a></li>
-								<li><a class="dropdown-item" href="#">MLA Style Guide</a></li>
-								<li><a class="dropdown-item" href="#">Chicago Style Template</a></li>
-								<li><a class="dropdown-item" href="#">Course Guides</a></li>
-								<li><a class="dropdown-item" href="#">Subject Guides</a></li>
+								<li><a class="dropdown-item" href="https://sunybroome.libguides.com/citation-guides/apa-style-guide">APA Style Guide</a></li>
+								<li><a class="dropdown-item" href="https://sunybroome.libguides.com/citation-guides/mla-style-guide">MLA Style Guide</a></li>
+								<li><a class="dropdown-item" href="course-guides.php">Course Guides</a></li>
+								<li><a class="dropdown-item" href="subject-guides.php">Subject Guides</a></li>
+								<li><a class="dropdown-item" href="tutorials.php">Tutorials</a></li>
 							</ul>
 						<li class="nav-item"><a class="nav-link" href="https://sunybroome.info/library/news-and-events">News & Events</a></li>
 
@@ -60,17 +59,17 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">Services<span class="caret"></span></a>  
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/book-librarian" title="">Book a Librarian</a></li>
-								<li><a class="dropdown-item" href="facultyservices.php" title="">Faculty Support</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/interlibrary-loan" title="">Interlibrary Loan</a></li>
-						        <li><a class="dropdown-item" href="https://sunybroome.info/library/oer/oer-home.php" title="Open Educational Resources">OER </a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/purchase-request" title="">Purchase Request</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/reserve-study-room" title="">Reserve a Study Room</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/textbooks-reserve" title="Textbooks and articles on Reserve">Textbooks on Reserve</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/accounts" title="">Your Library Accounts</a></li>
+								<li><a class="dropdown-item" href="https://sunybroome.info/library/book-librarian">Book a Librarian</a></li>
+								<li><a class="dropdown-item" href="facultyservices.php">Faculty Support</a></li>
+								<li><a class="dropdown-item" href="interlibrary-loan.php">Interlibrary Loan</a></li>
+						        <li><a class="dropdown-item" href="https://sunybroome.info/library/oer/oer-home.php">OER </a></li>
+								<li><a class="dropdown-item" href="https://sunybroome.info/library/purchase-request">Purchase Request</a></li>
+								<li><a class="dropdown-item" href="https://sunybroome.info/library/reserve-study-room">Reserve a Study Room</a></li>
+								<li><a class="dropdown-item" href="https://sunybroome.info/library/textbooks-reserve">Textbooks on Reserve</a></li>
+								<li><a class="dropdown-item" href="accounts.php" title="">Your Library Accounts</a></li>
 							</ul>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="https://sunybroome.info/library/help.php">Need Help?</a></li>
+						<li class="nav-item"><a class="nav-link" href="help.php">Need Help?</a></li>
 					</ul>
        </div><!-- /offcanvas body-->
 				</div><!-- /offcanvas -->

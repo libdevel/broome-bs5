@@ -1,28 +1,19 @@
 <div class="firstnav">
 
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
 
           <div class="navbar-header">
            <button type="button" class="navbar-toggle collapsed campusbutton ms-auto" data-toggle="collapse" data-target="#campuslinksNavDropdown" aria-expanded="false">
-
-
-
                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
                   <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
                 </svg>
                  <span class="icon-text">campus</span>
              </button>
 
-
             <a class="navbar-brand" href="https://sunybroome.edu"><img src="images/SB-Wordmark_Gold.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
 
-
         </div> <!-- /navbar-header -->
-
-
-
 
       <div class="collapse navbar-collapse navbar-right" id="campuslinksNavDropdown">
          <ul class="nav navbar-nav">

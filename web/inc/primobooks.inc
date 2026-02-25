@@ -1,89 +1,9 @@
-<style>
 
-
-/* quicksearch */
-
-
-.homepage-feature--find {--bs-nav-link-padding-x: 2rem; background-color: rgba(0,0,0,.8); bottom: 0;font-size: 1rem; left: 0; padding: 1rem;}
-
-.homepage-feature--find .block > h2 {color: #fff;text-transform: uppercase;}
-.homepage-feature--find .nav-tabs { /*border-bottom: 2px solid transparent;*/}
-.homepage-feature--find .nav-tabs .nav-link.active { color:#000;}
-.homepage-feature--find .tab-content {background-color: #fff; min-height: 185px;padding: 1.5rem;}
-.homepage-feature--find .nav-tabs .nav-link {border-width: 0;color: #fff; font-size: 1rem;padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);}
-
-
-.homepage-feature--find form { flex-wrap: nowrap; margin-bottom: 1rem;}
-
-.homepage-feature--find .input-group { --bs-border-radius: 4px; align-items: end;}
-.homepage-feature--find .bef-exposed-form .form--inline { margin-bottom: 0}
-.homepage-feature--find .form-type-select {flex-shrink: 0}
-.homepage-feature--find .form-item-query { flex-grow: 1;}
-
-.homepage-feature--find .input-group-lg > .form-control {font-size:1em;}
-
-
-
-.homepage-feature--find .nav-tabs .nav-link:active,.homepage-feature--find .nav-tabs .nav-link:hover {background-color: #314d64;text-decoration: underline}
-
-.homepage-feature--find .nav-tabs .nav-link.active { color:#000;}
-
-.homepage-feature--find .nav-tabs .nav-link.active:active,.homepage-feature--find .nav-tabs .nav-link.active:hover {background-color: #eef3f7}
-
-.homepage-feature--find .tab-content {background-color: #fff;min-height: 185px;padding: 1.5rem}
-
-
-
-
-.homepage-feature--find .form-item-query>label {
-    clip: rect(0,0,0,0)!important;
-    border: 0!important;
-    height: 1px!important;
-    margin: -1px!important;
-    overflow: hidden!important;
-    padding: 0!important;
-    white-space: nowrap!important;
-    width: 1px!important
-}
-
-.homepage-feature--find .form-item-query>label:not(caption) {position: absolute!important}
-
-.homepage-feature--find .bef-exposed-form .form--inline,.homepage-feature--find .form--inline,.homepage-feature--find form {
-    flex-wrap: nowrap;
-    margin-bottom: 1rem;
-}
-
-.homepage-feature--find .bef-exposed-form .form--inline .form-actions,.homepage-feature--find .bef-exposed-form .form--inline .form-item,.homepage-feature--find .form--inline .form-actions,.homepage-feature--find .form--inline .form-item,.homepage-feature--find form .form-actions,.homepage-feature--find form .form-item {margin: 0;}
-
-.homepage-feature--find .library-links, .homepage-feature--find .library-links a {color:#fff;}
-
-
-
-.btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #005fa9;
-    --bs-btn-border-color: #005fa9;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #001e44;
-    --bs-btn-hover-border-color: #001e44;
-    --bs-btn-focus-shadow-rgb: 38, 119, 182;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #004c87;
-    --bs-btn-active-border-color: #00477f;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #005fa9;
-    --bs-btn-disabled-border-color: #005fa9;
-}
-
-
-
-</style>
 
 <h1>Find Books</h1>
- <div class="simplesearch">
+<div class="homepagesearch tabs">    
 
-<div class="block block-psul-search block-psul-search-homepage-find-block">
+<div class="tab-content">
 
 
 

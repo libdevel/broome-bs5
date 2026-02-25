@@ -277,6 +277,19 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 .s-lc-mhw-header { text-align: center; } 
 .s-lc-mhw-header-date { text-align: center; display: inline-block; margin-top: 5px; font-size: 130%; } 
 
+.pull-left {float: left;}
+.pull-right {float: right;}
+
+
+.s-lc-mhw-header .btn-group-sm > .btn, .btn-sm {font-size: 20px; font-weight:bold;line-height: 1.5;}
+.s-lc-mhw-header .btn-default {color: #333;background-color: #fff;border-color: #ccc;}
+
+.s-lc-mhw-loc-name {display: none;}
+.s-lc-mhw-day-l {text-align: right;font-size: 1.2em; padding: 2px;font-weight: bold;}
+.s-lc-time {font-size: 1.1em;display: block;}
+.s-lc-note.s-lc-h-excep {font-size: 1em;}
+
+
 
 /* a-z list */
 .s-lg-icons {display: inline;}
@@ -303,7 +316,9 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 .region-books-display li {float:left;margin-left:20px; margin-top:20px;list-style-image: none;
     list-style-type: none;}
 
-
+/* libcankle */
+.libcankle {padding-bottom: 3rem;padding-top: 3rem;}
+.libcankle .container {background-color:#f8f8f8; font-weight:500; padding: 2rem;}
 
 
 /* cankle */
