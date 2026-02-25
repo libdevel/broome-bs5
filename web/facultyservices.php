@@ -2,7 +2,7 @@
       <?php 
             require_once('inc/header.inc');
             ?>
-      <title>Bootstrap Library v1</title>
+      <title>Faculty Services</title>
    </head>
    <body class="version2">
 
@@ -25,7 +25,7 @@
  <div class="container">
          <div class="row g-0">
 
-        <div class="col-sm-9 content" role="main">
+        <div class="col-sm-12 content" role="main">
 		     <div class="highlighted">  
 				 <div class="region region-highlighted">
 
@@ -35,7 +35,7 @@
  <div class="region-content">
 
 <p>
-    <button class="btn btn-primary" href="librarians">Find Your Librarian</button>
+    <a class="btn btn-primary" role="button" href="librarians.php">Find Your Librarian</a>
 </p>
 <div class="row">
     <div class="col-md-4" style="padding-bottom:10px;">
@@ -155,24 +155,14 @@
 </div>
 
 
-<div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
-  <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
-  <div class="d-none d-sm-block d-md-none">Small (sm) (>576px)</div>
-  <div class="d-none d-md-block d-lg-none">Medium (md) (>768px)</div>
-  <div class="d-none d-lg-block d-xl-none">Large (lg) (>992 px)</div>
-  <div class="d-none d-xl-block d-xxl-none">X-Large (xl) (>1200px)</div>
-  <div class="d-none d-xxl-block">XX-Large (xxl) (>1400px)</div>
-</div>
-</div> <!-- region-content -->
+
 
 
 
 </div><!-- col-sm-9 -->
 
 
-  <?php 
-  	require_once('inc/sidenav.inc');
-  ?>
+ 
    </div><!-- row g-0-->
 
   
@@ -183,22 +173,17 @@
      
  </div> <!-- content-wrap -->
 </main>
+  <?php 
+     require_once('inc/libcankle.inc');
+     require_once('inc/cankle.inc');
+     ?>
 
-	<footer class="footer" role="contentinfo">
-
+   <footer class="footer" role="contentinfo">
       <?php 
-         require_once('inc/cankle.inc');
          require_once('inc/footer.inc');
          ?>
-<div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
-  <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
-  <div class="d-none d-sm-block d-md-none">Small (sm) (>576px)</div>
-  <div class="d-none d-md-block d-lg-none">Medium (md) (>768px)</div>
-  <div class="d-none d-lg-block d-xl-none">Large (lg) (>992 px)</div>
-  <div class="d-none d-xl-block d-xxl-none">X-Large (xl) (>1200px)</div>
-  <div class="d-none d-xxl-block">XX-Large (xxl) (>1400px)</div>
-</div>
-	</footer>
+
+   </footer>
 
    </body>
 </html>

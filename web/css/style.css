@@ -332,7 +332,7 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 
 ul.campus > li {padding-top:0;}
 
-ul.apply > li, ul.health > li, ul.quicklinks > li {border-bottom: 1px solid #d8d8d8;}
+ul.apply > li, ul.health > li, ul.quicklinks > li {/*border-bottom: 1px solid #d8d8d8;*/}
 ul.apply > li.last,  ul.health > li.last, ul.quicklinks > li.last {border-bottom: none;}
 
 

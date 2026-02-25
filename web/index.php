@@ -33,6 +33,7 @@
                </div><!-- highlighted -->
 
                <div class="region-content">
+                   <h2>Quick Search</h2>
                   <?php 
                      require_once('inc/quicksearch1.inc');
                      ?>

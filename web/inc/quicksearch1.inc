@@ -1,4 +1,4 @@
-<h2>Quick Search</h2>
+
 
 <div class="frontdecor">
 <div class="homepagesearch tabs">

@@ -6,21 +6,11 @@
 
 <div class="tabs" id="quicksearch_tabs">
    <ul class="nav nav-tabs d-md-inline-flex nav-fill" role="tablist">
-      <li class="nav-item">
-         <a href="#quicksearch-pane" id="quicksearch-tab" data-bs-toggle="tab" class="nav-link active" aria-controls="quicksearch-pane" aria-selected="true"  role="tab">Quick Search</a>
-      </li>
-      <li class="nav-item">
-         <a href="#catalog-pane" id="catalog-tab" class="nav-link" data-bs-toggle="tab" aria-controls="catalog-pane" aria-selected="false" role="tab">Catalog</a>
-      </li>
-      <li class="nav-item">
-         <a href="#textbooks-pane" id="textbooks-tab" class="nav-link" data-bs-toggle="tab" aria-controls="textbooks-pane" aria-selected="false" role="tab">Textbooks/Reserves</a>
-      </li>
-      <li class="nav-item">
-         <a href="#journals-pane" id="journals-tab" class="nav-link" data-bs-toggle="tab" aria-controls="journals-pane" aria-selected="false" role="tab">Journal Titles</a>
-      </li>
-      <li class="nav-item">
-         <a href="#ebooks-pane" id="ebooks-tab" class="nav-link" data-bs-toggle="tab" aria-controls="ebooks-pane" aria-selected="false" role="tab">E-Books</a>
-      </li>
+      <li class="nav-item"><a href="#quicksearch-pane" id="quicksearch-tab" data-bs-toggle="tab" class="nav-link active" aria-controls="quicksearch-pane" aria-selected="true"  role="tab">Quick Search</a></li>
+      <li class="nav-item"><a href="#catalog-pane" id="catalog-tab" class="nav-link" data-bs-toggle="tab" aria-controls="catalog-pane" aria-selected="false" role="tab">Catalog</a></li>
+      <li class="nav-item"><a href="#textbooks-pane" id="textbooks-tab" class="nav-link" data-bs-toggle="tab" aria-controls="textbooks-pane" aria-selected="false" role="tab">Textbooks/Reserves</a></li>
+      <li class="nav-item"><a href="#journals-pane" id="journals-tab" class="nav-link" data-bs-toggle="tab" aria-controls="journals-pane" aria-selected="false" role="tab">Journal Titles</a></li>
+      <li class="nav-item"><a href="#ebooks-pane" id="ebooks-tab" class="nav-link" data-bs-toggle="tab" aria-controls="ebooks-pane" aria-selected="false" role="tab">E-Books</a></li>
    </ul>
 
 

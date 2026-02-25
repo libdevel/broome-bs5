@@ -65,6 +65,7 @@
 						        <li><a class="dropdown-item" href="https://sunybroome.info/library/oer/oer-home.php">OER </a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/purchase-request">Purchase Request</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/reserve-study-room">Reserve a Study Room</a></li>
+								<li><a class="dropdown-item" href="studentservices.php">Student Support</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/textbooks-reserve">Textbooks on Reserve</a></li>
 								<li><a class="dropdown-item" href="accounts.php" title="">Your Library Accounts</a></li>
 							</ul>
