@@ -26,10 +26,10 @@
 
 	<div class="input-group input-group-lg">
 			<input class="focus form-control" aria-label="Input search terms here" type="text" id="primoQueryEvTemp" placeholder="Search for articles, books, and more" maxlength="256" size="auto" value="">	
-	</div>	<!-- col-md-10 -->	
+	</div>	<!-- input-group -->
 	<div class="edit-actions">
             <input type="submit" class="btn btn-info" value="Search" id="go1" title="Search" onclick="searchPrimoEv()"   />
-	</div>
+	</div><!-- form-actions -->
 			</form> 					
 <div class="library-links"><a href="https://sunybroome.libguides.com/az/databases">Database A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/jsearch?vid=01SUNY_BCC:01SUNY_BCC&lang=en">Journal A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
 	
@@ -48,10 +48,10 @@
 
 			<div class="input-group input-group-lg">
 			<input  class="focus form-control" aria-label="Input search terms here" type="text" id="primoQueryArtTemp" placeholder="Search for articles" maxlength="256" size="auto" value="" >
-		</div>	<!-- col-md-10 -->
+		</div>	<!-- input-group -->
 		<div class="edit-actions">
             <input type="submit" class="btn btn-info" value="Search" id="go2" title="Search" onclick="searchPrimoArt()"   />
-		</div>
+		</div><!-- form-actions -->
 	</form> 
 	<div class="library-links"><a href="https://sunybroome.libguides.com/az/databases">Database A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/jsearch?vid=01SUNY_BCC:01SUNY_BCC&lang=en">Journal A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
 							
@@ -69,10 +69,10 @@
 
 			<div class="input-group input-group-lg">	
 			<input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryCatTemp" placeholder="Search for books and media" maxlength="256" size="auto" value="">	
-			</div>	<!-- col-md-10 -->
+			</div>	<!-- input-group -->
 			<div class="edit-actions">
 			<input  type="submit" class="btn btn-info"  value="Search" id="go3" title="Search" onclick="searchPrimoCat()"   />
-			</div>
+			</div><!-- form-actions -->
 		</form> 
 			
 		<div class="library-links"><a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?&tab=eBooks&search_scope=eBooks&vid=01SUNY_BCC:01SUNY_BCC&offset=0">Search for ebooks</a>, <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>								
@@ -88,24 +88,15 @@
 		<input type="hidden" name="search_scope" value="CourseReserves">
 		<!-- Fixed parameters -->
 		<input type="hidden" name="query" id="primoQueryCR">
-    <div class="d-flex flex-column flex-xl-row flex-grow-1">
-		<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-s form-item-s form-no-label mb-2 mb-xl-0 me-0 me-xl-3">
-			<label class="sr-only" for="primoSelectCR">Select:</label>
-				<select class="form-control form-select" id="primoSelectCR" >
-				<option selected="selected" value="any,contains,">All Fields</option>
-				<option value="course_code,contains,">Course No.</option>
-				<option value="course_instructor,contains,">Instructor</option>
-			</select>
-			</div>	<!-- col-md-3 -->
-    <div class="input-group">
-			<div class="find__search flex-grow-1">
+
+       <div class="input-group input-group-lg">
 			    <input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryCRTemp" maxlength="256" size="auto" placeholder="Search for Reserves" value="" />	
-			</div>	<!-- col-md-7 -->
-			<div class="form-actions js-form-wrapper form-wrapper">
+		</div>	<!-- input-group -->
+			<div class="edit-actions">
 				<input type="submit" class="btn btn-info" value="Search" id="go4" title="Search" onclick="searchPrimoCR()"   />
-			</div>
-		</div>
-		</div>
+			</div><!-- form-actions -->
+	
+		
 			</form> 					
 
 	</div><!--tab-4 -->
@@ -123,10 +114,10 @@
 
 				<div class="input-group input-group-lg">
 				<input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryILLTemp" placeholder="Search for books in other libraries" maxlength="256" size="auto" value="" >	
-				</div>	<!-- col-md-10 -->
+				</div>	<!-- input-group -->
 				<div class="edit-actions">
 				<input type="submit" class="btn btn-info" value="Search" id="go6" title="Search" onclick="searchPrimoILL()"   />
-			</div>
+			</div><!-- form-actions -->
 				</form> 					
 	</div><!-- tab 5-->
 	

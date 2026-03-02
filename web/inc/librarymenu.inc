@@ -24,7 +24,7 @@
 							<ul class="dropdown-menu">
                                   <li><a class="dropdown-item" href="about-library.php">About the Library</a></li>
                                   <li><a class="dropdown-item" href="accessibility.php">Accessibility</a></li>
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/comments">Comments</a></li>
+                                  <li><a class="dropdown-item" href="comments.php">Comments</a></li>
                                   <li><a class="dropdown-item" href="hours.php">Hours</a></li>
                                   <li><a class="dropdown-item" href="librarians.php">Librarians</a></li>
                                   <li><a class="dropdown-item" href="directions.php">Location and Directions</a></li>
@@ -40,7 +40,7 @@
                                 <li><a class="dropdown-item" href="connecting.php">Connecting to e-resources</a></li>
 								<li><a class="dropdown-item" href="databases.php">Databases by Subject</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.libguides.com/az/databases">Databases by Title</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/interlibrary-loan">Interlibrary Loan</a></li>
+								<li><a class="dropdown-item" href="interlibraryloan.php">Interlibrary Loan</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/journals-and-magazines">Journals and magazines</a></li>
 							</ul>
 						</li>

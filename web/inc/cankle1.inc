@@ -1,4 +1,4 @@
-			<a class="footerlogo" href="https://www1.sunybroome.edu/"  alt="SUNY Broome"><img class="img-fluid" src="images/footerlogo.png"></a>
+			<a class="footerlogo" href="https://www1.sunybroome.edu/"  alt="SUNY Broome"><img class="img-fluid" src="images/footerlogo.png" alt="SUNY Broome"></a>
 
 				<p> 907 Front Street <br />Binghamton, NY 13905</p>
 			<ul class="campus">
