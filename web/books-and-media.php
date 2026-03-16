@@ -49,7 +49,7 @@
         <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?query=any,contains,%3F&amp;tab=LibraryCatalog&amp;search_scope=MyInstitution&amp;sortby=date_d&amp;vid=01SUNY_BCC:01SUNY_BCC&amp;mfacet=location_code,include,4811%E2%80%93160972480004811%E2%80%93newbk,1&amp;lang=en&amp;offset=0&amp;came_from=sort">New books</a>
     </li>
     <li>
-        <a href="https://sunybroome.info/library/news/overdrive-ebooks-and-audio-books-available-now">Overdrive ebooks and audiobooks</a>
+        <a href="https://sunybroome.libguides.com/OverDrive">Overdrive ebooks and audiobooks</a>
     </li>
     <li>
         <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/jsearch?vid=01SUNY_BCC:01SUNY_BCC">Print and Electronic Journals and Magazines</a>
@@ -72,7 +72,7 @@
         WorldCat
         <ul>
             <li>
-                <a href="http://webster.sunybroome.edu:2048/login?url=http://firstsearch.oclc.org/dbname=WorldCat;done=referer;FSIP">FirstSearch</a>
+                <a href="https://sunybroome.libguides.com/wfs">FirstSearch</a>
             </li>
             <li>
                 <a href="https://sunybroome.on.worldcat.org/discovery">WorldCat Discovery</a>
