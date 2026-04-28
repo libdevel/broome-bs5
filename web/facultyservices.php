@@ -13,10 +13,6 @@
          require_once('inc/featuredimage.inc');
          require_once('inc/librarymenu.inc');
          ?>
-    <div class="mobile_chat">
-<script src="https://sunybroome.libanswers.com/load_chat.php?hash=5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></script>
-        <div id="libchat_5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></div>
-    </div>
    </header>
 
 
@@ -24,15 +20,10 @@
    <a id="main-content" tabindex="-1"></a>
  <div class="container">
          <div class="row g-0">
+<div class="order-1 order-lg-2 col-12 col-lg-9">
 
-        <div class="col-sm-12 content" role="main">
-		     <div class="highlighted">  
-				 <div class="region region-highlighted">
-
-		     </div><!-- region -->
-		   </div><!-- highlighted -->
-
- <div class="region-content">
+ <div class="region region-content">
+     <h1 class="page-header">Faculty Services</h1>
 
 <p>
     <a class="btn btn-primary" role="button" href="librarians.php">Find Your Librarian</a>
@@ -45,12 +36,12 @@
                     Library Instruction
                 </h2>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="library-instruction">About Library Instruction</a></li>
+                    <li class="list-group-item"><a href="library-instruction.php">About Library Instruction</a></li>
                     <li class="list-group-item"><a href="https://sunybroome.libwizard.com/id/711e0fea216910132a0f123c4f229425">Request library instruction</a></li>
-                    <li class="list-group-item"><a href="information-literacy-objectives">Information Literacy Objectives</a></li>
-                    <li class="list-group-item"><a href="information-literacy-modules">Information Literacy Modules</a></li>
+                    <li class="list-group-item"><a href="information-literacy-objectives.php">Information Literacy Objectives</a></li>
+                    <li class="list-group-item"><a href="information-literacy-modules.php">Information Literacy Modules</a></li>
                     <li class="list-group-item"><a href="https://sunybroome.libguides.com/ILguide">Information Literacy Faculty Toolkit</a></li>
-                    <li class="list-group-item"><a href="tutorials">Library Tutorials</a>
+                    <li class="list-group-item"><a href="tutorials.php">Library Tutorials</a>
                     </li>
                 </ul>
             </div><!--/card-body -->
@@ -66,7 +57,7 @@
                 </h2>
                  <ul class="list-group list-group-flush">
                     <li class="list-group-item">
-                        <a href="reserve-collection">Procedures for putting course materials on Reserve</a>
+                        <a href="course-reserves.php">Procedures for putting course materials on Reserve</a>
                     </li>
                     <li class="list-group-item">
                         <a href="https://sunybroome.libwizard.com/f/scan" target="_blank">Form to Request a Chapter Scan for Brightspace</a>
@@ -114,13 +105,13 @@
                 </h2>
                  <ul class="list-group list-group-flush">
                     <li class="list-group-item">
-                        <a href="poster-printing-guidelines">Poster Printing Guidelines</a>
+                        <a href="poster-printing-guidelines.php">Poster Printing Guidelines</a>
                     </li>
                     <li class="list-group-item">
-                        Borrow from other libraries:&nbsp;<a href="interlibrary-loan">Interlibrary Loan</a>
+                        Borrow from other libraries:&nbsp;<a href="interlibrary-loan.php">Interlibrary Loan</a>
                     </li>
                     <li class="list-group-item">
-                        Purchase Requests: Fill out the <a href="purchase-request">purchase request form</a> or contact your librarian.
+                        Purchase Requests: Fill out the <a href="purchase-request.php">purchase request form</a> or contact your librarian.
                     </li>
                     <li class="list-group-item">
                         <a href="https://sunybroome.libguides.com/LibraryLinks">How to link to Library resources</a>
@@ -146,7 +137,7 @@
                         <a href="suny-broome-digital-repositories">SUNY Broome Digital Repositories</a>
                     </li>
                     <li class="list-group-item">
-                        Learn about <a href="https://www3.sunybroome.edu/gallery/">the Gallery@SUNY Broome and the Corner Gallery</a> and how to apply for an exhibit.
+                        Learn about <a href="https://sunybroome.edu/gallery/">the Gallery@SUNY Broome and the Corner Gallery</a> and how to apply for an exhibit.
                     </li>
                 </ul>
             </div><!--/panel-body -->
@@ -156,12 +147,14 @@
 
 
 
-
+</div><!-- col-sm-9 -->
 
 
 </div><!-- col-sm-9 -->
 
-
+            <?php 
+               require_once('inc/sidenav_services.inc');
+               ?>
  
    </div><!-- row g-0-->
 

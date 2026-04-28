@@ -30,8 +30,8 @@
 </div>
 					
 					<div class="more-link">
-					  <a href="/library/new-books">
-					    more new books  </a>
+					  <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/collectionDiscovery?vid=01SUNY_BCC%3A01SUNY_BCC&collectionId=81140598290004811">
+					    View more new books  </a>
 					</div>
 				</div><!-- /region -->	
 			</div><!-- /books-display -->
@@ -54,26 +54,18 @@
                        </div> <!-- /news-image-wrap -->
 				  <div class="views-field views-field-title col"><span class="field-content"><a href="/library/news/scholarly-research-tutorials">Scholarly Research Tutorials </a></span>  </div>  </div>
 				 
-				  <div class="views-row views-row-3 views-row-odd list-group-item">
+				  <div class="views-row views-row-3 views-row-odd list-group-item d-flex">
+                     <div class="news-image-wrap col-2 p-1">  
+                            <div class="fakeimg">Fake Image</div>
+                       </div> <!-- /news-image-wrap -->
 				  <div class="views-field views-field-title "><span class="field-content"><a href="/library/news/updates-library-services-and-hours">Updates to Library Services and Hours</a></span>  </div>  </div>
 				  
-				  <div class="views-row views-row-4 views-row-even list-group-item">
+				  <div class="views-row views-row-4 views-row-even list-group-item d-flex">
+                     <div class="news-image-wrap col-2 p-1">  
+                            <div class="fakeimg">Fake Image</div>
+                       </div> <!-- /news-image-wrap -->
 				  <div class="views-field views-field-title"><span class="field-content"><a href="/library/news/message-library">A Message from the Library</a></span>  </div>  </div>
 				  
-				  <div class="views-row views-row-5 views-row-odd list-group-item">
-				  <div class="views-field views-field-title"><span class="field-content"><a href="/library/news/jove-education-content-now-available">JoVE Education Content Now Available</a></span>  </div>  </div>
-		
-				  <div class="views-row views-row-6 views-row-even list-group-item">
-				  <div class="views-field views-field-title"><span class="field-content"><a href="/library/news/mit-press-ebooks-now-available">MIT Press eBooks Now Available</a></span>  </div>  </div>
-				
-				  <div class="views-row views-row-7 views-row-odd list-group-item">
-				  <div class="views-field views-field-title"><span class="field-content"><a href="/library/news/new-resource-national-emergency-library">New resource: National Emergency Library</a></span>  </div>  </div>
-				  
-				  <div class="views-row views-row-8 views-row-even views-row-last list-group-item">
-				  <div class="views-field views-field-title"><span class="field-content"><a href="/library/news/sage-video-and-knowledge-databases-now-available">SAGE Video and Knowledge Databases Now Available</a></span>  </div></div>
-				    
-	
-      
 				<div class="more-link">
 				  <a href="/library/news-and-events">
 				    View older news  </a>

@@ -1,7 +1,7 @@
 <?php 
    require_once('inc/header.inc');
     $page_title="
-        Course Guides
+        Comments
         ";
    ?>
 <title><?php echo $page_title ?></title>
@@ -20,19 +20,32 @@
       <a id="main-content" tabindex="-1"></a>
 
  <div class="container">
+
+       <div class="region region-breadcrumb">
+          <div id="block-b5subtheme-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+             <nav aria-label="breadcrumb">
+                <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+                <ol class="breadcrumb">
+                   <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                   <li class="breadcrumb-item"><a href="comments.php"><?php echo $page_title ?></a></li>
+                </ol>
+             </nav>
+          </div><!-- breadcrumbs -->
+       </div><!-- region-breadcrumbs -->
+
          <div class="row g-0">
 
-            <div class="col-sm-12 content  order-1 order-lg-2 col-12">
-           
+             <div class="order-1 order-lg-2 col-12 col-lg-9">
+
                   <div class="region region-content">
                      <h1 class="page-header"><?php echo $page_title ?></h1>
-                 
-
-     <script>springshare_widget_config_1770068560109 = { path: 'guides', link_text: 'Guides' };</script><div id="s-lg-widget-1770068560109"></div><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://lgapi-us.libapps.com/widgets.php?site_id=16957&widget_type=1&search_terms=&search_match=2&sort_by=name&list_format=1&drop_text=Select+a+Guide...&output_format=1&load_type=2&enable_description=0&enable_group_search_limit=0&enable_subject_search_limit=0&guide_types%5B0%5D=2&tag_ids=&widget_title=Guide+List&widget_height=250&widget_width=100%25&widget_link_color=2954d1&widget_embed_type=1&num_results=0&enable_more_results=0&window_target=1&bs5_widget=0&config_id=1770068560109";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","s-lg-widget-script-1770068560109");</script>
-
- 
+                
+<div id="form_cbbb25512f91bc87112c06dbc1826745"></div><script type="text/javascript" src="https://sunybroome.libwizard.com/form_loader.php?id=cbbb25512f91bc87112c06dbc1826745&noheader=1"></script>
                   </div><!-- region-content -->
                </div><!-- col-sm-9 -->
+            <?php 
+               require_once('inc/sidenav_about.inc');
+               ?>
             </div><!-- row -->
          </div> <!-- container -->
 

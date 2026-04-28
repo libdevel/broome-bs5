@@ -87,13 +87,38 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 .fourthnav {background-color: #000; color:#fff;}
 
-.fourthnav a {font-weight:bold;  padding-bottom:15px;}
+.fourthnav a {font-weight:bold;  padding-bottom:15px;   color: #fff;}
+
+.fourthnav ul {
+  background-color: #000;
+  color: #fff;
+}
+
+.fourthnav ul.menu {
+  margin-left: 1em;
+  padding: 0;
+  list-style: none outside;
+  text-align: left;
+}
 
 .fourthnav li {border-bottom: 1px solid #d8d8d8;}
 
+
+.fourthnav .nav.nav-pills.flex-column > li a:focus, .nav.nav-pills.flex-column > li a:hover {color: #eeb310;}
+
+.fourthnav .nav.nav-pills.flex-column > li {
+  margin: -1px 0 0;
+}
+
+.fourthnav .nav.nav-pills.flex-column > li ul > li a {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+.fourthnav .nav.nav-pills.flex-column > li ul > li {
+  border: none;
+}
+
 /* menu dropdowns */
-
-
 
 .firstnav .dropdown-item a, .secondnav .dropdown-item a, .libnav .dropdown-item a, .fourthnav .dropdown-item a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:0.8em;}
 
@@ -108,6 +133,7 @@ h2, h3, h4 {margin-top: 0.9rem;}
 .libnav a.dropdown-item:hover, .libnav a.dropdown-item:active {background-color:#fff;text-decoration: underline;}
 
 .libnav a.active.dropdown-item.is-active-hover {}
+
 
 /* mobile dropdown */
 .firstnav .dropdown-menu  a  {background-color:#232323; color:#fff;}
@@ -156,6 +182,7 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 @media (min-width: 768px) {
   header .header--nav-search {position: static;}
+
 }
 
 
@@ -164,7 +191,7 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 .megamenu {border: none; border-radius: 0;padding: 0.7em; 
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);}
-.dropdown-menu {border: none; }
+.megamenu .dropdown-menu {border: none; }
 .megamenu.show {display: flex;}
 .megamenu ul {list-style: none;padding: 0; line-height:1.33em;}
 .megamenu li .dropdown-item {color: #000;font-size: 14px; padding: 0.5em 1em; 
@@ -181,9 +208,11 @@ h2, h3, h4 {margin-top: 0.9rem;}
 /* sidebar menu */
 
 .nav.nav-pills.flex-column > li {
-  margin: -1px 0 0;
-  border: solid 1px #e9ecef;
+/*  margin: -1px 0 0;
+  border: solid 1px #e9ecef; */
 }
+
+
 
 /* hero image */
 
@@ -358,7 +387,9 @@ a.footerlogo img {/*max-width:300px;*/}
 .footer a {color: #232323;}
 
 
-
+.region-sidebar-first, .region-sidebar-second, .region-footer, .region-content {
+  padding: 0 0.5rem;
+}
 
 /* X-Small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap */
@@ -379,6 +410,8 @@ a.footerlogo img {/*max-width:300px;*/}
       
  .secondnav .navbar {min-height: 85px;}
   .secondnav  img {width: 250px; height: 27.5px;}
+
+  .fourthnav { padding: 20px;     margin-bottom: 20px;}
 
    .dropdown-menu {/*border:none;*/}
 

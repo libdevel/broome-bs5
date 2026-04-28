@@ -19,25 +19,11 @@
  <div class="container">
          <div class="row g-0">
 
-         <div class="col-sm-12 content" role="main">
-            <div class="highlighted">
-               <div class="region region-highlighted">
-               </div><!-- region -->
-            </div><!-- highlighted -->
+         <div class="col-sm-12 content  order-1 order-lg-2 col-12">
+     
 
-            <div class="container">
-               <div class="region region-breadcrumb">
-                  <div id="block-b5subtheme-breadcrumbs" class="block block-system block-system-breadcrumb-block">
-                     <nav aria-label="breadcrumb">
-                        <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
-                        <ol class="breadcrumb">
-                           <li class="breadcrumb-item"><a href="/library/">Home</a></li>
-                           <li class="breadcrumb-item"><a href="/library/about-library">About</a></li>
-                        </ol>
-                     </nav>
-                  </div><!-- breadcrumbs -->
-               </div><!-- container -->
-           
+
+        
                   <div class="region-content">
                      <h1 class="page-header">Subject Guides</h1>
                  

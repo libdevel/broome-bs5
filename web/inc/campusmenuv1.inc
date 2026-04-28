@@ -34,7 +34,7 @@
                <li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/admissions-costs/">Admissions &amp; Costs</a></li>
                <li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/our-campus/">Our Campus</a></li>
                <li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/about/">About</a></li>
-               <li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/careers-workforce/">Careers &amp; Workforce</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/careers-workforce/">Workforce &amp; Community</a></li>
                <li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/foundation-alumni/">Foundation &amp; Alumni</a></li>
             </ul>
          </div><!-- /offcanvas body -->

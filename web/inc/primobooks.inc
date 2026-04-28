@@ -1,6 +1,6 @@
 
 
-<h1>Find Books</h1>
+
    <div class="homepagesearch tabs">    
 <div class="tab-content">  
    <form name="searchFormCat" class="input-group input-group-lg"  role="search" id="book-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="searchPrimoCat();" enctype="application/x-www-form-urlencoded; charset=utf-8">

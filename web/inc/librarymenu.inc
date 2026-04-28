@@ -20,15 +20,14 @@
 					<ul class="nav navbar-nav justify-content-end">
 						<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">About Us<span class="caret"></span></a>
+							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">About<span class="caret"></span></a>
 							<ul class="dropdown-menu">
                                   <li><a class="dropdown-item" href="about-library.php">About the Library</a></li>
                                   <li><a class="dropdown-item" href="accessibility.php">Accessibility</a></li>
                                   <li><a class="dropdown-item" href="comments.php">Comments</a></li>
                                   <li><a class="dropdown-item" href="hours.php">Hours</a></li>
                                   <li><a class="dropdown-item" href="librarians.php">Librarians</a></li>
-                                  <li><a class="dropdown-item" href="directions.php">Location and Directions</a></li>
-                                  <li><a class="dropdown-item" href="https://sunybroome.info/library/new-books">New Books</a></li>
+                                  <li><a class="dropdown-item" href="https://suny-bcc.primo.exlibrisgroup.com/discovery/collectionDiscovery?vid=01SUNY_BCC%3A01SUNY_BCC&collectionId=81140598290004811">New Books</a></li>
                                   <li><a class="dropdown-item" href="policies.php">Policies</a></li>
                                   <li><a class="dropdown-item" href="https://sunybroome.edu/dept/library/">Staff</a></li>
 							</ul>
@@ -37,15 +36,16 @@
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">Find & Borrow<span class="caret"></span></a>   
 							<ul class="dropdown-menu">
 								<li><a class="dropdown-item" href="books-and-media.php">Books and Media</a></li>
-                                <li><a class="dropdown-item" href="connecting.php">Connecting to e-resources</a></li>
 								<li><a class="dropdown-item" href="databases.php">Databases by Subject</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.libguides.com/az/databases">Databases by Title</a></li>
+                                <li><a class="dropdown-item" href="connecting.php">How to connect to databases</a></li>
 								<li><a class="dropdown-item" href="interlibraryloan.php">Interlibrary Loan</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/journals-and-magazines">Journals and magazines</a></li>
+								<li><a class="dropdown-item" href="https://suny-bcc.primo.exlibrisgroup.com/discovery/jsearch?vid=01SUNY_BCC:01SUNY_BCC&lang=en">Journal A-Z List</a></li>
+								<li><a class="dropdown-item" href="https://browzine.com/libraries/3957/subjects">Browse Journals and magazines</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="https://sunybroome.info/library/research-tools" title="">Library Guides<span class="caret"></span></a>
+							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="https://sunybroome.info/library/research-tools" title="">Research Guides<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a class="dropdown-item" href="https://sunybroome.libguides.com/citation-guides/apa-style-guide">APA Style Guide</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.libguides.com/citation-guides/mla-style-guide">MLA Style Guide</a></li>
@@ -53,27 +53,30 @@
 								<li><a class="dropdown-item" href="subject-guides.php">Subject Guides</a></li>
 								<li><a class="dropdown-item" href="tutorials.php">Tutorials</a></li>
 							</ul>
-						<li class="nav-item"><a class="nav-link" href="https://sunybroome.info/library/news-and-events">News & Events</a></li>
-
 						
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">Services<span class="caret"></span></a>  
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/book-librarian">Book a Librarian</a></li>
+								<li><a class="dropdown-item" href="book-librarian.php">Book a Librarian</a></li>
 								<li><a class="dropdown-item" href="facultyservices.php">Faculty Support</a></li>
 								<li><a class="dropdown-item" href="interlibrary-loan.php">Interlibrary Loan</a></li>
-						        <li><a class="dropdown-item" href="https://sunybroome.info/library/oer/oer-home.php">OER </a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/purchase-request">Purchase Request</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/reserve-study-room">Reserve a Study Room</a></li>
+						        <li><a class="dropdown-item" href="oer.php">OER </a></li>
+								<li><a class="dropdown-item" href="purchase-request.php">Purchase Request</a></li>
+								<li><a class="dropdown-item" href="reserve-study-room.php">Reserve a Study Room</a></li>
 								<li><a class="dropdown-item" href="studentservices.php">Student Support</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/textbooks-reserve">Textbooks on Reserve</a></li>
+								<li><a class="dropdown-item" href="textbooks-reserve.php">Textbooks on Reserve</a></li>
 								<li><a class="dropdown-item" href="accounts.php" title="">Your Library Accounts</a></li>
 							</ul>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="help.php">Need Help?</a></li>
+						<li class="nav-item"><a class="nav-link" href="help.php">Help</a></li>
 					</ul>
        </div><!-- /offcanvas body-->
 				</div><!-- /offcanvas -->
 </nav>
        </div><!-- /libnav -->
 </div><!-- /justify-content-end -->
+
+    <div class="mobile_chat">
+<script src="https://sunybroome.libanswers.com/load_chat.php?hash=5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></script>
+        <div id="libchat_5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></div>
+    </div>

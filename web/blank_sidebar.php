@@ -1,9 +1,8 @@
 <?php 
    require_once('inc/header.inc');
     $page_title="
-        Blank
+        Blank Sidebar
         ";
-   ?>
    ?>
 <title><?php echo $page_title ?></title>
 </head>
@@ -27,8 +26,8 @@
              <nav aria-label="breadcrumb">
                 <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
                 <ol class="breadcrumb">
-                   <li class="breadcrumb-item"><a href="/library/">Home</a></li>
-                   <li class="breadcrumb-item"><a href="/library/about-library">About</a></li>
+                   <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                   <li class="breadcrumb-item"><a href="about-library.php">About</a></li>
                 </ol>
              </nav>
           </div><!-- breadcrumbs -->
@@ -36,16 +35,20 @@
 
          <div class="row g-0">
 
-              <div class="col-sm-12 content  order-1 order-lg-2 col-12">
+             <div class="order-1 order-lg-2 col-12 col-lg-9">
 
                   <div class="region region-content">
-                    <h1 class="page-header"><?php echo $page_title ?></h1>
+                     <h1 class="page-header"><?php echo $page_title ?></h1>
                 
                              <p>
                                 The mission of the Learning Resources Center (LRC) is to facilitate student success by providing a broad range of resources and services to meet the informational and instructional needs of SUNY Broome students, faculty, and the extended college community.
                             </p>
+
                   </div><!-- region-content -->
                </div><!-- col-sm-9 -->
+            <?php 
+               require_once('inc/sidenav_about.inc');
+               ?>
             </div><!-- row -->
          </div> <!-- container -->
 
