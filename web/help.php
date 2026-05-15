@@ -22,38 +22,70 @@
    <a id="main-content" tabindex="-1"></a>
  <div class="container">
          <div class="row g-0">
-<div class="order-1 order-lg-2 col-12 col-lg-12">
+<div class="order-1 order-lg-2 col-12 col-lg-9">
 
  <div class="region region-content">
      <h1 class="page-header"><?php echo $page_title ?></h1>
 
-        <h2>
-    Phone
-</h2>
-<p>
-    Call to get help from a librarian anytime the library is open (<a href="hours.php">hours</a>).
+      <p>
+
 </p>
-<p>
-    Phone: (607) 778-5043
-</p>
-<h2>
-    Email
-</h2>
-<p>
-    Email your question to <a href="mailto:reference@sunybroome.edu">reference@sunybroome.edu</a>, and a librarian will answer your question within 24 hours (Mon-Fri).
-</p>
-<h2>
-    Book a Librarian
-</h2>
-<p>
-    Schedule an appointment with a librarian who will help you find library resources. <a href="https://sunybroome.libcal.com/appointments?lid=4650">Click here to schedule an appointment</a>.
-</p>
-<h2>
-    Chat with a Librarian
-</h2>
-<p>
-    Ask Us 24/7 is a chat service that is available 24 hours a day, 7 days a week. You will not necessarily be chatting with a librarian from the SUNY Broome Library, but you will be chatting with a reference librarian. You can access chat using the widget to the right&nbsp;or at <a href="https://sunybroome.libanswers.com/widget_standalone.php?hash=b28e23d9dae0a7e83097f6b4c6d8cc93">AskUs 24/7 Chat</a>.
-</p>
+<div class="row">
+
+    <div class="col-md-4" style="padding-bottom:10px;">
+        <div class="card shadow card-with-link bg-white h-100">
+            <div class="card-body">
+                <h2 class="card-title">
+                    Phone / Email 
+                </h2>
+                <ul>
+                    <li>Call: <a href="tel:6077785043">(607) 778-5043</a></li>
+ 
+                </ul>
+            <h3>Email</h3>
+                <ul>
+                    <li>Email: <a href="mailto:reference@sunybroome.edu">Email a Librarian</a></li>
+                    <li><a  href="librarians.php" >Find Your Librarian</a></li>
+                </ul>
+            </div>
+            <!--/panel-body -->
+        </div>
+        <!--/panel -->
+    </div>
+    <!-- col-md-4 -->
+    <div class="col-md-4" style="padding-bottom:10px;">
+        <div class="card shadow card-with-link bg-white h-100">
+            <div class="card-body">
+                <h2 class="card-title">
+                   Chat 24/7
+                </h2>
+                    <script src="https://sunybroome.libanswers.com/load_chat.php?hash=3d0c9c1582a96d4117d8d4e107d8acef" async></script>
+                    <div id="libchat_3d0c9c1582a96d4117d8d4e107d8acef"></div>
+            </div>
+            <!--/panel-body -->
+        </div>
+        <!--/panel -->
+    </div>
+    <!-- col-md-4 -->
+
+    <div class="col-md-4" style="padding-bottom:10px;">
+        <div class="card shadow card-with-link bg-white h-100">
+            <div class="card-body">
+                <h2 class="card-title">
+                    In-Person
+                </h2>
+                <ul>
+                    <li>Stop by the Reference Desk during library <a href="hours">hours</a></li>
+                    <li>Set up a one-on-one <a href="https://library.sunybroome.edu/services/book-librarian/">meeting with a librarian</a></li>
+                </ul>
+            </div>
+            <!--/panel-body -->
+        </div>
+        <!--/panel -->
+    </div>
+    <!-- col-md-4 -->
+</div>
+
 
 
 </div><!-- col-sm-9 -->
@@ -61,7 +93,9 @@
 
 </div><!-- col-sm-9 -->
 
-  
+<?php 
+   require_once('inc/sidenav_services.inc');
+   ?>
  
    </div><!-- row g-0-->
 

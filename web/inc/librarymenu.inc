@@ -63,7 +63,7 @@
 						        <li><a class="dropdown-item" href="oer.php">OER </a></li>
 								<li><a class="dropdown-item" href="purchase-request.php">Purchase Request</a></li>
 								<li><a class="dropdown-item" href="reserve-study-room.php">Reserve a Study Room</a></li>
-								<li><a class="dropdown-item" href="studentservices.php">Student Support</a></li>
+								<li><a class="dropdown-item" href="student-services.php">Student Services</a></li>
 								<li><a class="dropdown-item" href="textbooks-reserve.php">Textbooks on Reserve</a></li>
 								<li><a class="dropdown-item" href="accounts.php" title="">Your Library Accounts</a></li>
 							</ul>
@@ -77,6 +77,5 @@
 </div><!-- /justify-content-end -->
 
     <div class="mobile_chat">
-<script src="https://sunybroome.libanswers.com/load_chat.php?hash=5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></script>
-        <div id="libchat_5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></div>
+        <button class="libchat-link" href="https://broome-bs.ddev.site/help.php">Ask A Librarian</button>
     </div>

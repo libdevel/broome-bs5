@@ -272,8 +272,11 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 
 .lcs_slide_out div.lcs_header a {text-decoration:none; }
 .lcs_slide_out div.lcs_header a:hover {text-decoration:underline; }
+.lcs_slide_out iframe {height: 330px !important;}
 
 .mobile_chat {display: none;}
+  .mobile_chat {color: #fff; background-color: #286090;}
+  .libchat-link {background-color: #286090; color: #fff;padding: 6px 12px; border: 1px solid transparent;}
 
 
 /* libcal hours */
@@ -432,8 +435,9 @@ a.footerlogo img {/*max-width:300px;*/}
     margin-top: .0625rem;}
   .mobile_chat button:hover {/*text-decoration:underline;*/}
 
-  #lcs_slide_out-20238, #lcs_slide_out_button-28113 {display: none;}
+  #lcs_slide_out-28113, #lcs_slide_out_button-28113 {display: none;}
 
+  #lcs_slide_out-29301, #lcs_slide_out_button-29301  {display: none;}
 }
 
 @media (max-width: 991px) {
