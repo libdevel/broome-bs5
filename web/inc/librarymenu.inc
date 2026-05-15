@@ -68,7 +68,7 @@
 								<li><a class="dropdown-item" href="accounts.php" title="">Your Library Accounts</a></li>
 							</ul>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="help.php">Help</a></li>
+						<li class="nav-item menu-bling"><a class="nav-link" href="help.php">Help</a></li>
 					</ul>
        </div><!-- /offcanvas body-->
 				</div><!-- /offcanvas -->
